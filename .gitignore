@@ -1,8 +1,9 @@
 # Compiled class file
 *.class
 
-# Log file
+# Logs and temporary files
 *.log
+*.tmp
 
 # BlueJ files
 *.ctxt
@@ -22,3 +23,14 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven build output
+target/
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
